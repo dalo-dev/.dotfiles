@@ -1,5 +1,5 @@
 * {
-    font: "JetBrains Mono 13";
+    font: "JetBrains Mono Nerd Font 13";
     g-spacing: 10px;
     g-margin: 0;
     b-color: #000000FF;

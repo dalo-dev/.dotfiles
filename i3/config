@@ -220,7 +220,7 @@ default_border pixel 1
 bindsym $mod+Shift+x exec i3lock
 
 # Set Wallpaper
-exec_always --no-startup-id feh --bg-scale ~/.config/wallpapers/space.png
+exec_always --no-startup-id feh --bg-scale ~/.config/wallpapers/debian.png
 
 #Keyboard settings
 exec xinput set-prop 14 "libinput Natural Scrolling Enabled" 1

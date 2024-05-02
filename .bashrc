@@ -118,3 +118,12 @@ eval "$(starship init bash)"
 
 # Load Angular CLI autocompletion.
 source <(ng completion script)
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Load Java OpenJDK 11
+JAVA_HOME="/opt/jdk-11.0.1"
+export JAVA_HOME
+PATH="$JAVA_HOME/bin:$PATH"

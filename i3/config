@@ -190,6 +190,7 @@ default_border pixel 0
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec --no-startup-id nitrogen --restore
 
 #Keyboard settings
 exec --no-startup-id xinput set-prop "CUST0001:00 04F3:30FA Touchpad" "libinput Natural Scrolling Enabled" 1
